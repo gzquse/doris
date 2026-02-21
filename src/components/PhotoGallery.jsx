@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './PhotoGallery.css'
 
-// Images from public/images/ (JPG for browser compatibility)
+// Images from public/images/
+const base = import.meta.env.BASE_URL
 const defaultImages = [
-  { src: '/doris/images/IMG_6740.jpg', alt: 'Our Memory 1' },
-  { src: '/doris/images/IMG_6769.jpg', alt: 'Our Memory 2' },
-  { src: '/doris/images/IMG_6838.jpg', alt: 'Our Memory 3' },
-  { src: '/doris/images/IMG_6914.jpg', alt: 'Our Memory 4' },
+  { src: `${base}images/IMG_6740.jpg`, alt: 'Our Memory 1' },
+  { src: `${base}images/IMG_6769.jpg`, alt: 'Our Memory 2' },
+  { src: `${base}images/IMG_6838.jpg`, alt: 'Our Memory 3' },
+  { src: `${base}images/IMG_6914.jpg`, alt: 'Our Memory 4' },
 ]
 
 export default function PhotoGallery({ images = defaultImages }) {

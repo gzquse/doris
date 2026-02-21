@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/doris/', // GitHub Pages project site base path
+  base: '/doris/', // Match GitHub Pages project path for doris.ziqguo.com and gzquse.github.io/doris/
 })
