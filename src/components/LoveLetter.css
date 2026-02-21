@@ -1,0 +1,36 @@
+.love-letter {
+  padding: 6rem 2rem;
+  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+}
+
+.love-letter-inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.love-letter .section-title {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 400;
+  color: #f8fafc;
+  margin: 0 0 2.5rem;
+  text-align: center;
+}
+
+.letter-content {
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 12px;
+  padding: 2.5rem;
+}
+
+.letter-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #cbd5e1;
+  margin: 0 0 1.5rem;
+}
+
+.letter-content p:last-child {
+  margin-bottom: 0;
+}

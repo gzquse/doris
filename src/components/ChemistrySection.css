@@ -1,0 +1,111 @@
+.chemistry-section {
+  padding: 6rem 2rem;
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+}
+
+.chemistry-inner {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.chemistry-section .section-title {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 400;
+  color: #f8fafc;
+  margin: 0 0 2rem;
+  text-align: center;
+}
+
+.formula-block {
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.formula-equation {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  color: #818cf8;
+  margin: 0 0 1rem;
+  letter-spacing: 0.05em;
+}
+
+.formula-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem 1.5rem;
+  color: #94a3b8;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.formula-legend strong {
+  color: #a5b4fc;
+}
+
+.formula-note {
+  font-size: 0.9rem;
+  color: #64748b;
+  font-style: italic;
+  margin: 0;
+}
+
+.us-message {
+  text-align: center;
+  color: #a5b4fc;
+  font-size: 1rem;
+  margin: 0 0 1rem;
+  animation: fadeIn 0.4s ease-out;
+}
+
+.periodic-mini {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.element-cell {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  color: #f8fafc;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.element-cell:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+.element-he {
+  background: rgba(99, 102, 241, 0.2);
+}
+
+.element-ne {
+  background: rgba(245, 158, 11, 0.2);
+}
+
+.element-ar {
+  background: rgba(236, 72, 153, 0.2);
+}
+
+.element-us {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.3) 0%, rgba(236, 72, 153, 0.3) 100%);
+  cursor: pointer;
+}
+
+.element-kr {
+  background: rgba(34, 197, 94, 0.2);
+}
